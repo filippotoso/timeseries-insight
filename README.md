@@ -25,7 +25,7 @@ use Google\Cloud\Timeseriesinsights\V1\DataSource;
 define('PROJECT_ID', 'project-id');
 
 $client = new TimeseriesInsightsControllerClient([
-    'credentials' => __DIR__ . '/credentials.json', // You JSON credentials file downloaded from Google Console
+    'credentials' => __DIR__ . '/credentials.json', // Your JSON credentials file downloaded from Google Console
 ]);
 
 $datasets = $client->listDataSets('projects/' . PROJECT_ID);

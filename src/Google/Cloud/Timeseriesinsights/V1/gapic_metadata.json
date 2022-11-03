@@ -1,0 +1,53 @@
+{
+    "schema": "1.0",
+    "comment": "This file maps proto services\/RPCs to the corresponding library clients\/methods",
+    "language": "php",
+    "protoPackage": "google.cloud.timeseriesinsights.v1",
+    "libraryPackage": "Google\\Cloud\\Timeseriesinsights\\V1",
+    "services": {
+        "TimeseriesInsightsController": {
+            "clients": {
+                "grpc": {
+                    "libraryClient": "TimeseriesInsightsControllerGapicClient",
+                    "rpcs": {
+                        "AppendEvents": {
+                            "methods": [
+                                "appendEvents"
+                            ]
+                        },
+                        "CreateDataSet": {
+                            "methods": [
+                                "createDataSet"
+                            ]
+                        },
+                        "DeleteDataSet": {
+                            "methods": [
+                                "deleteDataSet"
+                            ]
+                        },
+                        "EvaluateSlice": {
+                            "methods": [
+                                "evaluateSlice"
+                            ]
+                        },
+                        "EvaluateTimeseries": {
+                            "methods": [
+                                "evaluateTimeseries"
+                            ]
+                        },
+                        "ListDataSets": {
+                            "methods": [
+                                "listDataSets"
+                            ]
+                        },
+                        "QueryDataSet": {
+                            "methods": [
+                                "queryDataSet"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "filippo-toso/timeseries-insights",
+    "description": "A simple client library for Google Timeseries Insights Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0 || ^9.0",
+        "google/protobuf": "^3.21",
+        "grpc/grpc": "^1.42",
+        "google/apiclient": "^2.12",
+        "google/gax": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Google\\": "src/Google",
+            "GPBMetadata\\": "src/GPBMetadata"
+        }
+    }
+}
